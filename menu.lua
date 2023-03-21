@@ -71,7 +71,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Script Launched";
                 Duration = 1.5;})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/psx2'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/psx3'))()
 
 end)
 
@@ -443,3 +443,12 @@ end)
 
 
 --tab4
+
+Tab1Section:NewButton("FE Bullfrog", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/fe'))()
+
+end)
