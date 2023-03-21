@@ -9,11 +9,11 @@ local Window = Library.CreateLib("Mini X", "GrapeTheme")
 local Tab1 = Window:NewTab("Main")
 local Tab2 = Window:NewTab("Extra Cheats")
 local Tab3 = Window:NewTab("Game Hubs")
-local Tab4 = Window:NewTab("Other")
+local Tab4 = Window:NewTab("FE")
 local Tab1Section = Tab1:NewSection("Game Cheats")
 local Tab2Section = Tab2:NewSection("Extra Cheats")
 local Tab3Section = Tab3:NewSection("Game Hubs")
-local Tab4Section = Tab4:NewSection("Other")
+local Tab4Section = Tab4:NewSection("FE Scripts")
 
 
 
@@ -27,15 +27,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Text = "Script Launched";
                 Duration = 1.5;})
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
-
-end)
-
-Tab1Section:NewButton("Da Hood SwagMode", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 
 end)
 
@@ -184,15 +175,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/arsena
 
 end)
 
-Tab1Section:NewButton("Combat Warriors", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet("https://www.itots.tk/zaphub/combat-warriors.lua", true))()
-
-end)
-
 Tab1Section:NewButton("Bedwars", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
@@ -201,6 +183,99 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 loadstring(game:HttpGet('https://raw.githubusercontent.com/RTrade/Voidz/main/Main/Bedwars.lua'))()
 
 end)
+
+Tab1Section:NewButton("Muscle Legends", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
+
+end)
+
+Tab1Section:NewButton("Chaos", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/chaos'))()
+
+end)
+
+Tab1Section:NewButton("Fnf", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/fnf'))()
+
+end)
+
+Tab1Section:NewButton("Lucky Blocks", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/stillnotgivingafuck/LuckyBlocks/main/loader.lua')))()
+
+end)
+
+Tab1Section:NewButton("Adopt Me Own All Pets", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lf4d7/daphie/main/ame.lua"))()
+
+end)
+
+Tab1Section:NewButton("Prison Life Admin", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/h17s3/TIGERADMIN/main/TIGERADMINSCRIPTFREE'),true))()
+
+end)
+
+Tab1Section:NewButton("Randomizer", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/randomizer'))()
+
+end)
+
+Tab1Section:NewButton("Zombie Attack", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/zombieattack'))()
+
+end)
+
+Tab1Section:NewButton("Zombie Rush", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/zombierush'))()
+
+end)
+
+Tab1Section:NewButton("RoCitizens Inf Money", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/RoCitizens%20Infinite%20Money.txt"))()
+
+end)
+
+
+
 
 
 
@@ -291,6 +366,26 @@ loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
 
 end)
 
+Tab2Section:NewButton("Fly", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/fly"))()
+
+end)
+
+Tab2Section:NewButton("Aimbot", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/aimbot"))()
+
+end)
+
+
+
 
 
 
@@ -348,157 +443,3 @@ end)
 
 
 --tab4
-
-Tab4Section:NewButton("Slap Battles", "Script will start once clicked.", function()
- game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;
-            })
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
-
-end)
-
-Tab4Section:NewButton("Strong Man Simulator", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tip52/Leo-hub/main/loader"))()
-
-end)
-
-Tab4Section:NewButton("Muscle Legends", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
-
-end)
-
-Tab4Section:NewButton("Chaos", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/chaos'))()
-
-end)
-
-Tab4Section:NewButton("Clicker Simulator", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/clickersimulator'))()
-
-end)
-
-Tab4Section:NewButton("Fnf", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/fnf'))()
-
-end)
-
-Tab4Section:NewButton("Apocolypse Tycoon", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/apocolypsetycoon'))()
-
-end)
-
-Tab4Section:NewButton("Lucky Blocks", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/stillnotgivingafuck/LuckyBlocks/main/loader.lua')))()
-
-end)
-
-Tab4Section:NewButton("Sonic Speed Simulator", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0sonic2", true))()
-
-end)
-
-Tab4Section:NewButton("Adopt Me Own All Pets", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lf4d7/daphie/main/ame.lua"))()
-
-end)
-
-Tab4Section:NewButton("Prison Life Admin", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/h17s3/TIGERADMIN/main/TIGERADMINSCRIPTFREE'),true))()
-
-end)
-
-Tab4Section:NewButton("Randomizer", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/randomizer'))()
-
-end)
-
-Tab4Section:NewButton("Zombie Attack", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/zombieattack'))()
-
-end)
-
-Tab4Section:NewButton("Zombie Rush", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/zombierush'))()
-
-end)
-
-Tab1Section:NewButton("Energy Assault", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/energyassault'))()
-
-end)
-
-Tab4Section:NewButton("Fly Race", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Podroka626/Scripts/main/Loader"))()
-
-end)
-
-Tab4Section:NewButton("Epic Minigames", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Epic%20Minigames/EpicMinigamesGUI"))()
-
-end)
