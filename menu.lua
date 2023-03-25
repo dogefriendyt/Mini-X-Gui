@@ -148,6 +148,15 @@ loadstring(game:HttpGet('https://ppearl.vercel.app'))()
 
 end)
 
+Tab1Section:NewButton("Sword Fighters", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/Saaakai/Random-Roblox-Script/main/Sword%20Fighters%20Sim"))()
+    
+end)
+
 Tab1Section:NewButton("Anime Fighting Simulator", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
