@@ -462,7 +462,7 @@ end)
 
 --tab4
 
-Tab1Section:NewButton("FE Bullfrog", "Script will start once clicked.", function()
+Tab4Section:NewButton("FE Bullfrog", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Script Launched";
