@@ -93,6 +93,15 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/psx3')
 
 end)
 
+Tab1Section:NewButton("Pet Rift Trefle Farm", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/petrifttreflefarm'))()
+
+end)
+
 Tab1Section:NewButton("MM2 Admin Panel", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
