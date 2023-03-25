@@ -175,15 +175,6 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/0exo/dump/main/afs')
 
 end)
 
-Tab1Section:NewButton("Doors", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
-
-end)
-
 Tab1Section:NewButton("Arsenal Owl Hub", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
@@ -301,15 +292,23 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/zombie
 
 end)
 
-Tab1Section:NewButton("RoCitizens Inf Money", "Script will start once clicked.", function()
+Tab1Section:NewButton("My Restaurant Script #1", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Script Launched";
                 Duration = 1.5;})
-loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/RoCitizens%20Infinite%20Money.txt"))()
+loadstring(game:HttpGet("https://system-exodus.com/scripts/MyRestaurant/MyRestaurant.lua", true))()
 
 end)
 
+Tab1Section:NewButton("My Restaurant Script #2", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LasagnaLINKS/LasagnaLinksHUB/main/Ifjdbzkwbxbekjdjeksncjwobckeknenskwbcorjcjjejdbb"))()
+
+end)
 
 
 
