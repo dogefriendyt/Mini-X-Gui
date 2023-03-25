@@ -48,6 +48,24 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/
 
 end)
 
+Tab1Section:NewButton("Blox Fruits Neva Hub", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2', true))()
+
+end)
+
+Tab1Section:NewButton("Get Neva Hub Key", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Copied to clipboard";
+                Duration = 1.5;})
+setclipboard("https://linkvertise.com/618693/getkey/1")
+
+end)
+
 Tab1Section:NewButton("PSX Project-WD", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
