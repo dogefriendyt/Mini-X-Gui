@@ -99,12 +99,30 @@ game:GetService("TeleportService"):Teleport(137885680)
 
 end)
 
+Tab1Section:NewButton("Zombie Rush Hardcore", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(4301323950)
+
+end)
+
 Tab1Section:NewButton("Zombie Attack", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Teleporting...";
                 Duration = 1.5;})
 game:GetService("TeleportService"):Teleport(1240123653)
+
+end)
+
+Tab1Section:NewButton("Zombie Attack Hardmore", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(1632210982)
 
 end)
 
