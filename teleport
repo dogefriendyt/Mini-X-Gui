@@ -36,6 +36,33 @@ game:GetService("TeleportService"):Teleport(6284583030)
 
 end)
 
+Tab1Section:NewButton("Murder Mystery 2", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(142823291)
+
+end)
+
+Tab1Section:NewButton("Restaurant Tycoon 2", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(3398014311)
+
+end)
+
+Tab1Section:NewButton("Driving Empire", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(3351674303)
+
+end)
+
 Tab1Section:NewButton("Pet Rift", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
