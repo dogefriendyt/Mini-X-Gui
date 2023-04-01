@@ -126,6 +126,24 @@ game:GetService("TeleportService"):Teleport(1632210982)
 
 end)
 
+Tab1Section:NewButton("Brookhaven", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(4924922222)
+
+end)
+
+Tab1Section:NewButton("Adopt Me", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Teleporting...";
+                Duration = 1.5;})
+game:GetService("TeleportService"):Teleport(920587237)
+
+end)
+
 
 
 
