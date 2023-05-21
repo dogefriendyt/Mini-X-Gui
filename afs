@@ -1,0 +1,40 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "AFS GUI by Mini-X";
+                Duration = 1.5;})
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/GdN5iRbt"))() 
+local Window = Library.CreateLib("Mini X", "Serpent") 
+
+
+local Tab1 = Window:NewTab("Main")
+local Tab2 = Window:NewTab("Teleport")
+local Tab1Section = Tab1:NewSection("Game Cheats")
+local Tab2Section = Tab2:NewSection("Extra Cheats")
+
+
+
+
+
+--Tab 1
+
+Tab1Section:NewButton("Infinite Yen/Chikara", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/dogefriendyt/dump/main/afs'))()
+
+
+end)
+
+Tab1Section:NewSlider("Walkspeed", "Change how fast you go", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+ 
+Tab1Section:NewSlider("Jumppower", "Change how high you jump", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+ 
+Tab1Section:NewButton("Noclip", "go trought wall", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/dogefriendyt/dump/main/noclip'))()
+end)
