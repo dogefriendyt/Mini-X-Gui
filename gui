@@ -1,0 +1,7 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/coast%20old"))()
+local test = Library:CreateTab("Title", "Description")
+
+test:CreateSection("Admin")
+
+test:CreateButton("Button", function()
+end)
